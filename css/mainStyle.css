@@ -39,6 +39,13 @@ div.gallery {
   width: 180px;
 }
 
+div.ref {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
+}
+
 div.gallery:hover {
   border: 1px solid #777;
 }
