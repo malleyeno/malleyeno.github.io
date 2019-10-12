@@ -74,3 +74,20 @@ div.gallery img {
   width: 100%;
   height: auto;
 }
+
+.collapsible {
+  background-color: #ce4257;
+  /*border: none;*/
+  outline: none;
+  width: 100%;
+}
+
+.active, .collapsible:hover {
+  background-color: #777;
+}
+
+.about-section {
+  display: none;
+  overflow: hidden;
+  background-color: #ce4257;
+}
