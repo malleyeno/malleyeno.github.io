@@ -23,4 +23,4 @@ defaults:
     values:
       layout: "default"
 
-theme: jekyll-theme-midnight
+# theme: jekyll-theme-midnight
