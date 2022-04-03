@@ -1,32 +1,14 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link type="text/css" rel="stylesheet" href="css/mainStyle.css">
-    <title>Malle Yeno</title>
-    <link rel="icon" href="assets/icon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="assets/icon.ico" type="image/x-icon"/>
-  </head>
+---
+title: Blog
+---
+<h1>Latest Posts</h1>
 
-  <body>
-    <!-- colours:
-    #4f000b
-    #720026
-    #ce4257
-    #ff7f51
-    #ff9b54 -->
-    <h1>Blog</h1>
-    <p><a href="blog/20200202.html" style="color: #ff9b54">Growing Up Ella, or How I Got Opened Up and Grew a Soul, February 2, 2020</a>.</p>
+<ul>
+  {% for post in site.posts%}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
 
-
-    <div class="button-bar">
-      <ul>
-        <li class="button"><a href="index.html">Home</a></li>
-        <li class="button"><a href="refSheet.html">Reference Sheet</a></li>
-        <li class="button"><a href="artSheet.html">Art</a></li>
-        <li class="button"><a href="blog.html">Blog</a></li>
-        <li class="button"><a href="contactSheet.html">Contact Me</a></li>
-    </ul>
-    </div>
-    <div><hr></div>
-  </body>
-</html>

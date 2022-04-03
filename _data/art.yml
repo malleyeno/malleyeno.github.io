@@ -1,0 +1,12 @@
+- name: Reference
+  path: assets\images\Malle_Yeno-Reference.png
+  desc: My old reference sheet
+- name: Full Body Hyena 
+  path: assets\images\hyena_1.png
+  desc: Example of full body portrait (posed)
+- name: Samoyed TG Sticker
+  path: assets\images\happySsm.png
+  desc: Example of a non-bordered sticker for Telegram
+- name: Bordered TG Sticker
+  path: assets\images\urAcutie.png
+  desc: Example of a bordered sticker for Telegram

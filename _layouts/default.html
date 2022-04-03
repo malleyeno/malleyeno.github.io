@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="icon" href="assets\images\icon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="assets\images\icon.ico" type="image/x-icon"/>
+        {% feed_meta %}
+        {% seo %}
+    </head>
+    <body>
+        {% include navigation.html %}
+        {{ content }}
+    </body>
+</html>
