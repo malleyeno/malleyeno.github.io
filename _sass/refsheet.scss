@@ -1,0 +1,30 @@
+// Ref-sheet styling
+
+div.ref {
+    /*margin: 5px;*/
+    /*border: 1px solid #ccc;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*float: left;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%);*/
+    width: 100%;
+}
+
+div.ref.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #777;
+}
+
+.about-section {
+    display: none;
+    overflow: hidden;
+    background-color: #ce4257;
+}
