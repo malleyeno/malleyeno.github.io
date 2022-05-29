@@ -51,3 +51,5 @@ _site/assets/images/urAcutie.png
 _site/assets/js/refsheet.js
 _site/authors/jill.html
 _site/authors/ted.html
+.jekyll-cache/Jekyll/Cache/
+_site/
