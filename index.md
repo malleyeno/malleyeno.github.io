@@ -1,6 +1,6 @@
 ---
 layout: contacts
-title: About
+title: Home
 ---
 
 My name is Malle!
