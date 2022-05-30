@@ -1,0 +1,26 @@
+@import "main";
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $elementAccentCol;
+    border-radius: 3%;
+    p {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    
+}
+
+headerImg {
+    text-align: center;
+}
+// Social media bubbles
