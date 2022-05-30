@@ -20,7 +20,25 @@
     
 }
 
-headerImg {
+#headerImg {
     text-align: center;
 }
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-list {
+    list-style: none;
+}
 // Social media bubbles
+
+.contacts-ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-items: center;
+}
