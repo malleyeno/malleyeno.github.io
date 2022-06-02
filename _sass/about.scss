@@ -38,7 +38,19 @@
 
 .contacts-ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     list-style: none;
     justify-items: center;
+}
+
+.contact-li {
+    padding: 3em;
+    margin: 1em;
+    background-color: $elementAccentCol;
+
+}
+
+.contact-li:hover {
+        background-color: red;
+        paddint: 3em;
 }
