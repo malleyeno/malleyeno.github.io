@@ -35,19 +35,28 @@
     list-style: none;
 }
 // Social media bubbles
-
+.social-buttons {
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+}
 .contacts-ul {
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-items: center;
+    margin: 3em;
+    width: 80%;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 
 .contact-li {
     padding: 3em;
     margin: 1em;
     background-color: $elementAccentCol;
-
+    flex-wrap: wrap;
 }
 
 .contact-li:hover {
