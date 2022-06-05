@@ -47,7 +47,7 @@
     list-style: none;
     justify-items: center;
     margin: 3em;
-    width: 80%;
+    //width: 80%;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
@@ -62,7 +62,6 @@
     background-color: $elementAccentCol;
     flex-wrap: wrap;
     border-radius: 5%;
-
 }
 
 .contact-li:hover {
