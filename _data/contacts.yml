@@ -1,10 +1,15 @@
 - name: Twitter
   link: https://twitter.com/malle_yeno
+  icon: fa-twitter-square
 - name: FurAffinity
   link: https://www.furaffinity.net/user/malleyeno/
+  icon: 🐾
 - name: Telegram
   link: https://t.me/Malle_Yeno
+  icon: fa-telegram
 - name: Tumblr
   link: https://malle-yeno.tumblr.com/
+  icon: fa-tumblr
 - name: Mastodon
   link: https://tech.lgbt/web/@malle_yeno
+  icon: fa-mastodon
