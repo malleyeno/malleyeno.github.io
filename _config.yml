@@ -1,4 +1,6 @@
 collections:
+  art:
+    output: true
   # authors:
   #   output: true
 
