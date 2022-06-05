@@ -4,7 +4,9 @@ layout: default
 <link rel="stylesheet" href="/assets/css/ArtComp.css">
 <h1>{{ page.title }}</h1>
 <div class="gallery">
-    {% for art in site.data.art %}
+    {% for art in site.art %}
+        <!--TODO Either make clicking on the post open a zoom version, or
+        have a separate posting layout for art posts.-->
         <a target="_blank" href="{{ art.path }}">
             <img src="{{ art.path }}" width="600" height="400">
         </a>
