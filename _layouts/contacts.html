@@ -1,10 +1,17 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="/assets/css/AboutComp.css">
 <h1>{{ page.title }}</h1>
-
-<ul>
-    {% for contact in site.data.contacts %}
-        <li> <a href="{{ contact.link }}">{{ contact.name }}</a></li>
-    {% endfor %}
-</ul>
+<div class="intro-container">
+    <div class="intro-card">
+       {{ content }}
+    </div>
+</div>
+<div class="social-buttons">
+    <ul class="contacts-ul">
+        {% for contact in site.data.contacts %}
+            <a href="{{ contact.link }}"> <li class="contact-li"> <i class="{{ contact.icon }}"></i> {{ contact.name }}</li></a>
+        {% endfor %}
+    </ul>
+</div>

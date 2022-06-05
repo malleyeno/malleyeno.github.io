@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Art
 ---
+<link rel="stylesheet" href="/assets/css/ArtComp.css">
 <h1>{{ page.title }}</h1>
-{% for art in site.data.art %}
-    <div class="gallery">
+<div class="gallery">
+    {% for art in site.data.art %}
         <a target="_blank" href="a{{ art.path }}">
             <img src="{{ art.path }}" width="600" height="400">
         </a>
         <div class="desc">{{ art.desc }}</div>
-    </div>
-{% endfor %}
+    {% endfor %}
+</div>

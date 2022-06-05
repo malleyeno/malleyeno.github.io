@@ -1,0 +1,70 @@
+@import "main";
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $elementAccentCol;
+    border-radius: 3%;
+    p {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    
+}
+
+#headerImg {
+    text-align: center;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-list {
+    list-style: none;
+}
+
+// Social media bubbles
+.social-buttons {
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+}
+.contacts-ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-items: center;
+    margin: 3em;
+    //width: 80%;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    a {
+        text-decoration: none;
+    }
+}
+
+.contact-li {
+    padding: 3em;
+    margin: 1em;
+    background-color: $elementAccentCol;
+    flex-wrap: wrap;
+    border-radius: 5%;
+}
+
+.contact-li:hover {
+        background-color: red;
+        paddint: 3em;
+}
