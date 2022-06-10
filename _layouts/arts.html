@@ -4,23 +4,14 @@ layout: default
 <link rel="stylesheet" href="/assets/css/ArtComp.css">
 <h1>{{ page.title }}</h1>
 {% assign artFolder = site.collections | where: "label", "art-assets" %}
-{{ artFolder | inspect  }}
-{% assign artFiles = artFolder.files %}
+{{ artFolder | jsonify  }}
+{% assign artFiles = artFolder[0].files %}
 {{ artFiles | inspect  }}
+{{ site.art-assets | jsonify }}
 <!-- <div class="gallery"> -->
     <!--{% assign image_files = site.static_files | where: "image", true %}-->
-        {% for artItem in site.art-assets %}
-            <p>Theres an item here</p>
-        <!--TODO Either make clicking on the post open a zoom version, or
-        have a separate posting layout for art posts.-->
-        <div class="art-tile">
-            <!-- <p>{{ artItem.basename }}</p> -->
-            <img src="{{ artItem.path }}">
-        </div>
-        <!--        <a target="_blank" href="{{ art.path }}">
-            <img src="{{ art.path }}" width="600" height="400">
-        </a>
-        <div class="desc">{{ art.basename }}</div>
--->
+    {% for artItem in artFiles %}
+        {{ artItem.path  }}
+            <!-- <img src="{{ artItem.path }}"> -->
     {% endfor %}
 </div>
