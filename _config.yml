@@ -1,5 +1,6 @@
 collections:
-  art:
+  art-assets:
+    image: true
     output: true
   # authors:
   #   output: true
@@ -24,5 +25,9 @@ defaults:
       path: ""
     values:
       layout: "default"
+  # - scope:
+  #     path: "art"
+  #   values:
+  #     image: true
 
 # theme: jekyll-theme-midnight
