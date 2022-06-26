@@ -3,15 +3,15 @@ layout: default
 ---
 <link rel="stylesheet" href="/assets/css/ArtComp.css">
 <h1>{{ page.title }}</h1>
-{% assign artFolder = site.collections | where: "label", "art-assets" %}
-{{ artFolder | jsonify  }}
-{% assign artFiles = artFolder[0].files %}
-{{ artFiles | inspect  }}
-{{ site.art-assets | jsonify }}
-<!-- <div class="gallery"> -->
-    <!--{% assign image_files = site.static_files | where: "image", true %}-->
-    {% for artItem in artFiles %}
-        {{ artItem.path  }}
-            <!-- <img src="{{ artItem.path }}"> -->
+{% assign artFolder = site.collections | where: "label", "art-assets" | first %}
+{{ artFolder.files |jsonify }}
+
+<div class="gallery">
+    {% for artItem in artFolder.files %}
+        {% comment %}
+        This lets us use output=true to list the files. Otherwise, there is no way to access our
+        static files via collections (or at least this is the only way I found it to work.)
+        {% endcomment %}
+        <img src="{{ artItem.path | remove_first: "_" }}"></img>
     {% endfor %}
 </div>
