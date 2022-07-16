@@ -5,7 +5,7 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 {% assign artFolder = site.collections | where: "label", "art-assets" | first %}
-{{ artFolder.files |jsonify }}
+<!-- {{ artFolder.files |jsonify }} -->
 
 <div class="gallery-parent">
     <div class="gallery">
@@ -21,7 +21,6 @@ layout: default
         </ul>
         <ul>
             {% for item in site.art-assets %}
-                <!-- {{item | jsonify}} -->
                 <li>{{ item }}</li>
             {% endfor %}
         </ul>
