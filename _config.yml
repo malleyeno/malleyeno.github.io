@@ -2,8 +2,6 @@ collections:
   art-assets:
     image: true
     output: true
-  # authors:
-  #   output: true
 
 plugins:
   - jekyll-feed
@@ -25,9 +23,9 @@ defaults:
       path: ""
     values:
       layout: "default"
-  # - scope:
-  #     path: "art"
-  #   values:
-  #     image: true
+  - scope:
+      path: "_art-assets"
+    values:
+      layout: "art_post"
 
 # theme: jekyll-theme-midnight
