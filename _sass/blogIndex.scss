@@ -1,0 +1,28 @@
+@import "main";
+
+// Blog Index Styling
+li {
+    list-style-type: none;
+}
+
+h2 {
+    background-color: $elementAccentCol;
+    text-align: center;
+    width: max-content;
+}
+
+h2:hover {
+    background-color: $activeElementCol;
+}
+
+.blog-listing {
+    background-color: $elementSecondCol;
+    margin: 3em;
+    padding: 1em;
+    a {
+        text-decoration: none;
+    }
+    p {
+        font-style: italic;
+    }
+}

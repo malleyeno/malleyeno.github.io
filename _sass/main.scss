@@ -1,6 +1,13 @@
 // colours: #4f000b #720026 #ce4257 #ff7f51 #ff9b54
 
+$mainBGCol: #a36f81;
+$secondBGCol: #c5525c;
+$fontCol: #4f000b;
+$navBarCol: #720026;
+$buttonCol: #ce4257;
+$activeElementCol: #ff7f51;
 $elementAccentCol: #e47e8e;
+$elementSecondCol: #cca2b7;
 
 // Navbar Styling
 .current {
@@ -9,7 +16,7 @@ $elementAccentCol: #e47e8e;
 
 nav {
     text-align: center;
-    background-color: #720026;
+    background-color: $navBarCol;
 }
 
 .button-bar {
@@ -23,7 +30,7 @@ nav {
 }
 
 .button {
-    background-color: #ce4257;
+    background-color: $buttonCol;
     list-style-type: none;
     margin: 0% 10%;
     padding: 0%;
@@ -32,7 +39,7 @@ nav {
 }
 
 .button:hover {
-    background-color: #ff9b54;
+    background-color: $activeElementCol;
 }
 
 
@@ -47,15 +54,15 @@ nav {
 
 // General Doc Styling
 body {
-    background-color: #a36f81;
+    background-color: $mainBGCol;
     height: 100%;
 }
 
 h1 {
-    background-color: white;
+    background-color: $secondBGCol;
     text-align: center;
 }
 
 p {
-    color: #5c1f0f;
+    color: $fontCol;
 }
