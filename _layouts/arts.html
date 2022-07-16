@@ -9,7 +9,7 @@ layout: default
 
 <div class="gallery-parent">
     <div class="gallery-second">
-        <ul>
+        <!-- <ul>
             {% for artItem in artFolder.files %}
                 {% comment %}
                 This lets us use output=true to list the files. Otherwise, there is no way to access our
@@ -18,7 +18,7 @@ layout: default
                 {% assign artPath = artItem.path | remove_first: "_" %}
                 <li><a href="{{ artPath }}" target="_blank"><img src="{{ artPath }}"></img></a></li>
             {% endfor %}
-        </ul>
+        </ul> -->
         <ul>
             {% for item in site.art-assets %}
                 <li>{{ item }}</li>
