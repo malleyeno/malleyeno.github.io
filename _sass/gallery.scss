@@ -1,4 +1,4 @@
-@use "main";
+@import "main";
 
 // Gallery Styling
 
@@ -15,8 +15,8 @@ div.gallery-second {
     width: 97%;
 }
 
-div.gallery-second:hover {
-    border: 1px solid #777;
+li:hover {
+    box-shadow: 0px 0px 8px 10px $activeElementCol;
 }
 
 
