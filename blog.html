@@ -13,6 +13,9 @@ layout: blogs
         {{ post.title }}
       </a>
     </h2>
+    <h3>
+      {{ post.date | date_to_string }}
+    </h3>
     <p> {{ post.excerpt }} </p>
   </li>
   {% endfor %}
