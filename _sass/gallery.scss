@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: center;
 }
-div.gallery {
+div.gallery-second {
     margin: 5px;
     // TODO comment this out once texting is done
     border: 1px solid #ccc;
@@ -15,7 +15,7 @@ div.gallery {
     width: 97%;
 }
 
-div.gallery:hover {
+div.gallery-second:hover {
     border: 1px solid #777;
 }
 
@@ -27,7 +27,7 @@ div.gallery:hover {
     width: 100%;
 }
 
-.gallery ul {
+.gallery-second ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
