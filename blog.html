@@ -7,13 +7,13 @@ layout: blogs
 
 <ul>
   {% for post in site.posts%}
-  <li>
+  <li class="blog-listing">
     <h2>
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
     </h2>
-    <p class="blog-listing"> {{ post.excerpt }} </p>
+    <p> {{ post.excerpt }} </p>
   </li>
   {% endfor %}
 </ul>
