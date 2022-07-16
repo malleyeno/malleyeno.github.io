@@ -37,15 +37,17 @@
 
 // Social media bubbles
 .social-buttons {
+    display: flex;
     flex-direction: column;
-    justify-items: center;
+    width: 100%;
+    justify-content: center;
     align-content: center;
 }
 .contacts-ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-items: center;
+    justify-content: center;
     margin: 3em;
     //width: 80%;
     flex-wrap: wrap;
