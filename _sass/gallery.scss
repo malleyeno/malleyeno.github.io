@@ -2,21 +2,23 @@
 
 // Gallery Styling
 
+.gallery-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 div.gallery {
     margin: 5px;
+    // TODO comment this out once texting is done
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 97%;
 }
 
 div.gallery:hover {
     border: 1px solid #777;
 }
 
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
 
 .collapsible {
     background-color: #ce4257;
@@ -25,3 +27,21 @@ div.gallery img {
     width: 100%;
 }
 
+.gallery ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+li {
+    // TODO comment this out once implemented
+    border: 1px solid #777;
+    list-style-type: none;
+    margin: 1em;
+    width: 20em;
+    height: max-content;
+}
+
+li img {
+    width: 100%;
+    object-fit: contain;
+}

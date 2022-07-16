@@ -7,13 +7,17 @@ layout: default
 {% assign artFolder = site.collections | where: "label", "art-assets" | first %}
 <!-- {{ artFolder.files |jsonify }} -->
 
-<div class="gallery">
-    {% for artItem in artFolder.files %}
-        {% comment %}
-        This lets us use output=true to list the files. Otherwise, there is no way to access our
-        static files via collections (or at least this is the only way I found it to work.)
-        {% endcomment %}
-        {% assign artPath = artItem.path | remove_first: "_" %}
-        <a href="{{ artPath }}" target="_blank"><img src="{{ artPath }}"></img></a>
-    {% endfor %}
+<div class="gallery-parent">
+    <div class="gallery">
+        <ul>
+            {% for artItem in artFolder.files %}
+                {% comment %}
+                This lets us use output=true to list the files. Otherwise, there is no way to access our
+                static files via collections (or at least this is the only way I found it to work.)
+                {% endcomment %}
+                {% assign artPath = artItem.path | remove_first: "_" %}
+                <li><a href="{{ artPath }}" target="_blank"><img src="{{ artPath }}"></img></a></li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
