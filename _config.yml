@@ -8,6 +8,22 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# SEO Tags for jekyll-seo-tag
+title: "Malle Yeno - Art and Blog"
+tagline: "An art gallery and blog by Malle Yeno, your favourite local raccoon!"
+description: "The art portfolio and blog of Malle Yeno. Topics range from art and the furry fandom, geospatial technology, software development, data science, and any other topics that I jump into."
+logo: "/assets/images/flavicon.png"
+author:
+  twitter: malle_yeno
+social:
+  name: Malle Yeno
+  links:
+    - https://twitter.com/malle_yeno
+    - https://t.me/Malle_Yeno
+    - https://malle-yeno.tumblr.com/
+    - https://tech.lgbt/web/@malle_yeno
+    - https://www.furaffinity.net/user/malleyeno/
+
 defaults:
   - scope:
       path: ""
