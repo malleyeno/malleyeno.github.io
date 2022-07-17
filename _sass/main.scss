@@ -1,5 +1,5 @@
-// colours: #4f000b #720026 #ce4257 #ff7f51 #ff9b54
-
+// Variables
+// Colours
 $mainBGCol: #a36f81;
 $secondBGCol: #c5525c;
 $fontCol: #4f000b;
@@ -8,6 +8,33 @@ $buttonCol: #ce4257;
 $activeElementCol: #ff7f51;
 $elementAccentCol: #e47e8e;
 $elementSecondCol: #cca2b7;
+
+// Sizes
+:root {
+    --marginTop: 6vh;
+    --generalFontSize: 2.5vw;
+}
+
+// Responsive settings
+$breakpoint-phone: 400px;
+$breakpoint-pc: 1000px;
+
+@media only screen and (max-width: $breakpoint-phone) {
+    // Sizes
+    :root {
+    --generalFontSize: 5.5vw;
+    --marginTop: 3vh;
+    }
+}
+
+@media only screen and (min-width: $breakpoint-pc) {
+
+    // Sizes
+    :root {
+        --generalFontSize: 1.1vw;
+        --marginTop: 6vh;
+    }
+}
 
 // Navbar Styling
 .current {
@@ -22,6 +49,7 @@ nav {
 .button-bar {
     position: fixed;
     text-align: center;
+    font-size: 2.5vw;
     top: 0%;
     left: 0%;
     // left: 50%;
@@ -59,6 +87,7 @@ body {
 }
 
 h1 {
+    margin-top: var(--marginTop);
     background-color: $secondBGCol;
     text-align: center;
 }
@@ -66,3 +95,4 @@ h1 {
 p {
     color: $fontCol;
 }
+
