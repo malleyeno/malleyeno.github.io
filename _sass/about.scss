@@ -12,6 +12,7 @@
     align-items: center;
     background-color: $elementAccentCol;
     border-radius: 3%;
+    flex-direction: var(--genFlexDirection);
     p {
         text-align: center;
         font-size: var(--generalFontSize);
@@ -22,6 +23,7 @@
 
 #headerImg {
     text-align: center;
+    width: var(--headerImgWidth);
 }
 
 .description-container {

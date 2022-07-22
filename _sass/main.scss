@@ -13,6 +13,8 @@ $elementSecondCol: #cca2b7;
 :root {
     --marginTop: 6vh;
     --generalFontSize: 2.5vw;
+    --headerImgWidth: 30%;
+    --genFlexDirection: row;
 }
 
 // Responsive settings
@@ -24,6 +26,8 @@ $breakpoint-pc: 1000px;
     :root {
     --generalFontSize: 5.5vw;
     --marginTop: 3vh;
+    --headerImgWidth: 60vw;
+    --genFlexDirection: column;
     }
 }
 
