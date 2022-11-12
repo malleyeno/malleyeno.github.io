@@ -11,7 +11,7 @@ $elementSecondCol: #cca2b7;
 
 // Sizes
 :root {
-    --marginTop: 6vh;
+    --marginTop: 1vh;
     --generalFontSize: 2.5vw;
     --headerImgWidth: 30%;
     --genFlexDirection: row;
@@ -36,7 +36,7 @@ $breakpoint-pc: 1000px;
     // Sizes
     :root {
         --generalFontSize: 1.4vw;
-        --marginTop: 6vh;
+        --marginTop: 3vh;
     }
 }
 
@@ -100,3 +100,7 @@ p {
     color: $fontCol;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+}
