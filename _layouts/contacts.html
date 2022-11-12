@@ -11,7 +11,9 @@ layout: default
 <div class="social-buttons">
     <ul class="contacts-ul">
         {% for contact in site.data.contacts %}
-            <a href="{{ contact.link }}"><li class="contact-li"><i class="{{ contact.icon }}"></i> {{ contact.name }}</li></a>
+            <div class="contact-div">
+                <a href="{{ contact.link }}"><li class="contact-li"><i class="{{ contact.icon }}"></i> {{ contact.name }}</li></a>
+            </div>
         {% endfor %}
     </ul>
 </div>

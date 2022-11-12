@@ -1,5 +1,26 @@
 @import "main";
 
+:root {
+    // --generalFontSize: 5.5vw;
+    // --marginTop: 3vh;
+    // --headerImgWidth: 60vw;
+    --genFlexDirection: row;
+    --socialWidth: fit-content;
+
+}
+
+@media only screen and (max-width: $breakpoint-phone) {
+    // Sizes
+    :root {
+        // --generalFontSize: 5.5vw;
+        // --marginTop: 3vh;
+        // --headerImgWidth: 60vw;
+        --socialWidth: 80vw;
+        --genFlexDirection: column;
+    }
+}
+
+
 .intro-container {
     display: flex;
     align-items: center;
@@ -47,17 +68,25 @@
 }
 .contacts-ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: var(--genFlexDirection);
     list-style: none;
+    list-style-position: outside;
     justify-content: space-around;
     margin: 3em;
+    padding: 0;
     //width: 80%;
     flex-wrap: wrap;
+    justify-items: center;
     align-items: center;
     align-content: center;
     a {
         text-decoration: none;
+        text-align: center;
     }
+}
+
+.contact-div {
+    width: var(--socialWidth);
 }
 
 .contact-li {

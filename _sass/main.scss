@@ -11,7 +11,7 @@ $elementSecondCol: #cca2b7;
 
 // Sizes
 :root {
-    --marginTop: 1vh;
+    --marginTop: 1.5vh;
     --generalFontSize: 2.5vw;
     --headerImgWidth: 30%;
     --genFlexDirection: row;
@@ -59,6 +59,7 @@ nav {
     // left: 50%;
     width: 100%;
     //transform: translate(50%, 0%);
+    height: var(--marginTop);
 }
 
 .button {
@@ -85,6 +86,10 @@ nav {
 // }
 
 // General Doc Styling
+html {
+    height: fit-content;
+}
+
 body {
     background-color: $mainBGCol;
     height: 100%;
