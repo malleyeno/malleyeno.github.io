@@ -39,6 +39,8 @@ li {
     margin: 1em;
     width: 20em;
     height: max-content;
+    background-color: $buttonCol;
+    padding: 1em;
 }
 
 li img {
@@ -46,6 +48,10 @@ li img {
     object-fit: contain;
 }
 
+.art-post-background {
+    background-color: $elementSecondCol;
+    padding: 1em;
+}
 p {
     text-align: center;
 }

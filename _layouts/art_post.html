@@ -2,6 +2,8 @@
 
 ---
 
-{% assign imgPath2 = page.id | append: ".png" %}
-<a href="{{ imgPath2 }}"><img src="{{ imgPath2 }}"></a>
+<div class="art-post-background">
+    {% assign imgPath2 = page.id | append: ".png" %}
+    <a href="{{ imgPath2 }}"><img src="{{ imgPath2 }}"></a>
+</div>
 {{ content }}
