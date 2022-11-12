@@ -3,12 +3,13 @@
 // Blog Index Styling
 li {
     list-style-type: none;
+    // overflow: ;
 }
 
 h2 {
     background-color: $elementAccentCol;
     text-align: center;
-    width: max-content;
+    // width: max-content;
 }
 
 h2:hover {
