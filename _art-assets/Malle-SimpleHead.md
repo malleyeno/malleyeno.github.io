@@ -1,5 +1,5 @@
 ---
 piclink: art-assets/Malle-SimpleHead.png
 ---
-![]({{ page.piclink }})
+![Malle pin design and profile picture]({{ page.piclink }})
 A pin design and pfp

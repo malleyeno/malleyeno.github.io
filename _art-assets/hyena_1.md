@@ -1,5 +1,5 @@
 ---
 piclink: art-assets/hyena_1.png
 ---
-![]({{ page.piclink }})
+![Malle drawn as a hyena]({{ page.piclink }})
 Malle as yeen
