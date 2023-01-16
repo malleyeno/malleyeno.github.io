@@ -6,7 +6,7 @@
     <!-- {% assign imgPath2 = page.id | append: ".png" %} -->
     <!-- <a href="{{ imgPath2 }}"><img src="{{ imgPath2 }}"></a> -->
     <a href="{{ page.piclink }}">
-        {{ content }}
+        {{ content | image_tag: loading: 'lazy'}}
     </a>
 </div>
 <!-- {{ content }} -->
