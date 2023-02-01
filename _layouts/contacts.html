@@ -11,9 +11,15 @@ layout: default
 <div class="social-buttons">
     <ul class="contacts-ul">
         {% for contact in site.data.contacts %}
+            {% if contact.name == "Mastodon" %}
+            <div class="contact-div">
+                <a rel="me" href="{{ contact.link }}"><li class="contact-li"><i class="{{ contact.icon }}"></i> {{ contact.name }}</li></a>
+            </div>
+            {% else %}
             <div class="contact-div">
                 <a href="{{ contact.link }}"><li class="contact-li"><i class="{{ contact.icon }}"></i> {{ contact.name }}</li></a>
             </div>
+            {% endif %}
         {% endfor %}
     </ul>
 </div>
