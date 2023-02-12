@@ -1,6 +1,9 @@
 - name: Twitch
   link: https://www.twitch.tv/malle_yeno
   icon: fa-brands fa-twitch
+- name: Discord Server
+  link: https://discord.gg/rhM2xvez3n/
+  icon: fa-brands fa-discord
 - name: Mastodon
   link: https://tech.lgbt/@malle_yeno
   icon: fa-brands fa-mastodon
