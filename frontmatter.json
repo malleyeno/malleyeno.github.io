@@ -4,6 +4,12 @@
     {
       "title": "_posts",
       "path": "[[workspace]]/_posts"
+    },
+    {
+      "title": "_art-assets",
+      "path": "[[workspace]]/_art-assets"
     }
-  ]
+  ],
+  "frontMatter.framework.startCommand": "jekyll serve --livereload",
+  "frontMatter.preview.host": "http://127.0.0.1:4000"
 }
