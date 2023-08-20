@@ -7,18 +7,20 @@
 - name: Mastodon
   link: https://tech.lgbt/@malle_yeno
   icon: fa-brands fa-mastodon
-- name: Youtube
-  link: https://www.youtube.com/@malle_yeno/
-  icon: fa-brands fa-youtube
+- name: Bluesky
+  link: https://bsky.app/profile/malleyeno.bsky.social
+  icon: fa-solid fa-b
 - name: FurAffinity
   link: https://www.furaffinity.net/user/malleyeno/
   icon: fa-solid fa-paw
 - name: Telegram
-  link: https://t.me/Malle_Yeno
+  link: https://t.me/MalleMakesMeanMochas
   icon: fa-brands fa-telegram
+- name: Youtube
+  link: https://www.youtube.com/@malle_yeno/
+  icon: fa-brands fa-youtube
+
 - name: Tumblr
   link: https://malle-yeno.tumblr.com/
   icon: fa-brands fa-tumblr
-- name: Twitter
-  link: https://twitter.com/malle_yeno
-  icon: fa-brands fa-twitter
+
