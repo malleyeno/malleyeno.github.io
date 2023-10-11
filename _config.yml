@@ -14,7 +14,7 @@ tagline: "An art gallery and blog by Malle Yeno, your favourite local raccoon!"
 description: "The art portfolio and blog of Malle Yeno. Topics range from art and the furry fandom, geospatial technology, software development, data science, and any other topics that I jump into."
 logo: "/assets/images/flavicon.png"
 author:
-  twitter: malle_yeno
+  name: malle_yeno
 social:
   name: Malle Yeno
   links:
