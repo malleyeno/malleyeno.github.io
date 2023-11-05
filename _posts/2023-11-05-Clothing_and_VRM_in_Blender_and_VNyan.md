@@ -1,3 +1,6 @@
+---
+title: Clothing and VRM with Blender and VNyan
+---
 Getting clothing to work on VRM models is a bit tricky. But we discovered a way to make toggleable clothes [while I was streaming updates to my model over on Twitch!](https://www.twitch.tv/malle_yeno) We discovered a way to customize your VRM in Blender to have clothes, and them turn them on/off in VNyan. These are my rough notes on how to make this happen. I might refine this more in the future!
 
 ## In Blender
@@ -24,8 +27,11 @@ Note that I havent named them similar to the mesh or material. You can do so if 
 
 ![](/assets/images/blender_MDWiLe9hMz.png)
 
-- Next to Material, pick the relevant material to your clothing item. Flexx_Shirt.003 is my "excuse me" shirt design, so that is why it is under that blendshape.
-- Next to Property Name (shorted to Property ... in screenshot), type \_Color
+- Next to Material, pick the relevant material to your clothing item. 
+
+Flexx_Shirt.003 is my "excuse me" shirt design, so that is why it is under that blendshape.
+
+- Next to Property Name, type \_Color
 	- **You must spell it this way exactly**. Underscore, title cased, and in american spelling. If you experience errors, triple check your formatting here.
 
 ![](/assets/images/blender_5Oxmyj5RVE.png)

@@ -1,0 +1,30 @@
+@import "main";
+
+// Blog Post Styling
+ul {
+    // display: inline-block;
+    list-style-position:inside;
+    overflow: hidden;
+}
+li {
+    list-style-type: circle ;
+    // display: inline-block;
+}
+
+h2 {
+    background-color: $elementAccentCol;
+    text-align: center;
+    display: inline-block;
+    // width: max-content;
+}
+
+h2:hover {
+    background-color: $activeElementCol;
+}
+
+#container {
+    background-color: $elementSecondCol;
+    margin: 3em;
+    padding: 1em;
+    text-align: center;
+}
