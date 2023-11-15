@@ -24,7 +24,24 @@ h2:hover {
 
 #container {
     background-color: $elementSecondCol;
-    margin: 3em;
+    display: flex;
+    margin: auto;
     padding: 1em;
-    text-align: center;
+    width: 50%;
+
+    p {
+        // display: inline-flex;
+        // grid-template-rows:max-content;
+        // align-content: ;
+        // justify-content: center;
+        // justify-items: center;
+
+
+        img {
+            // text-align: center;
+            display: flex;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    }
 }
