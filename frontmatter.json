@@ -8,8 +8,13 @@
     {
       "title": "_art-assets",
       "path": "[[workspace]]/_art-assets"
+    },
+    {
+      "title": "images",
+      "path": "[[workspace]]/assets/images"
     }
   ],
   "frontMatter.framework.startCommand": "jekyll serve --livereload",
-  "frontMatter.preview.host": "http://127.0.0.1:4000"
+  "frontMatter.preview.host": "http://127.0.0.1:4000",
+  "frontMatter.website.host": "malleyeno.com"
 }
