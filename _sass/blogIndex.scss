@@ -1,9 +1,35 @@
 @import "main";
 
 // Blog Index Styling
+
+html {
+    height: 100%;
+}
+
+body {
+    // display: flex;
+    // flex-direction: column;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+   
+}
+
+ul {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    list-style: none;
+    list-style-position:outside;
+}
+
 li {
     list-style-type: none;
-    // overflow: ;
+    list-style-position: outside;
+    // overflow:visible;
 }
 
 h2 {
@@ -18,8 +44,8 @@ h2:hover {
 
 .blog-listing {
     background-color: $elementSecondCol;
-    margin: 3em;
-    padding: 1em;
+    // margin: 3em;
+    // padding: 1em;
     a {
         text-decoration: none;
     }
