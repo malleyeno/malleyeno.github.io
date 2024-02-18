@@ -1,19 +1,19 @@
 // Variables
 // Colours
-$mainBGCol: #a36f81;
-$secondBGCol: #c5525c;
-$fontCol: #4f000b;
-$navBarCol: #720026;
-$buttonCol: #ce4257;
-$activeElementCol: #ff7f51;
-$elementAccentCol: #e47e8e;
-$elementSecondCol: #cca2b7;
+$mainBGCol: #6a96e3;
+$secondBGCol: #192149;
+$fontCol: #192149;
+$navBarCol: #192149;
+$buttonCol: #192149;
+$activeElementCol: #95aacc;
+$elementAccentCol: #bbd5ff;
+$elementSecondCol: #95aacc;
 
 // Sizes
 :root {
     --marginTop: 1.5vh;
-    --generalFontSize: 2.5vw;
-    --headerImgWidth: 30%;
+    --generalFontSize: 3.5vw;
+    --headerImgWidth: 25%;
     --genFlexDirection: row;
 }
 
@@ -35,7 +35,7 @@ $breakpoint-pc: 1000px;
 
     // Sizes
     :root {
-        --generalFontSize: 1.4vw;
+        --generalFontSize: 2vw;
         --marginTop: 3vh;
     }
 }
@@ -87,12 +87,13 @@ nav {
 
 // General Doc Styling
 html {
-    height: fit-content;
+    // height: fit-content;
+    height: 100%;
+    background: linear-gradient(to bottom, $mainBGCol, $secondBGCol);
 }
 
 body {
-    background-color: $mainBGCol;
-    height: 100%;
+    // height: 100%;
 }
 
 h1 {

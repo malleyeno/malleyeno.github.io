@@ -4,6 +4,9 @@
 - name: Discord Server
   link: https://discord.gg/rhM2xvez3n
   icon: fa-brands fa-discord
+- name: Commissions
+  link: https://forms.gle/nbZFb4F4mDZqiejD7
+  icon: fa-solid fa-paintbrush
 - name: Mastodon
   link: https://tech.lgbt/@malle_yeno
   icon: fa-brands fa-mastodon
@@ -19,7 +22,6 @@
 - name: Youtube
   link: https://www.youtube.com/@malle_yeno/
   icon: fa-brands fa-youtube
-
 - name: Tumblr
   link: https://malle-yeno.tumblr.com/
   icon: fa-brands fa-tumblr

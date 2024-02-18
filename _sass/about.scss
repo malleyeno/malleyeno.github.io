@@ -15,24 +15,30 @@
         // --generalFontSize: 5.5vw;
         // --marginTop: 3vh;
         // --headerImgWidth: 60vw;
-        --socialWidth: 80vw;
+        --socialWidth: 60vw;
         --genFlexDirection: column;
     }
 }
 
+#container {
+//    display: flex;
+  //  align-items: center;
+   // justify-content: center;
+}
 
 .intro-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .intro-card {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: $elementAccentCol;
-    border-radius: 3%;
+    border-radius: 1%;
     flex-direction: var(--genFlexDirection);
     p {
         text-align: center;
@@ -45,6 +51,7 @@
 #headerImg {
     text-align: center;
     width: var(--headerImgWidth);
+    border-radius: 50%;
 }
 
 .description-container {
@@ -62,19 +69,21 @@
 .social-buttons {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     justify-content: center;
     align-content: center;
+    justify-items: center;
+    align-self: center;
 }
 .contacts-ul {
     display: flex;
     flex-direction: var(--genFlexDirection);
     list-style: none;
     list-style-position: outside;
-    justify-content: space-around;
+    justify-content:center;
     margin: 3em;
     padding: 0;
-    //width: 80%;
+    width: 80%;
     flex-wrap: wrap;
     justify-items: center;
     align-items: center;
@@ -86,19 +95,28 @@
 }
 
 .contact-div {
-    width: var(--socialWidth);
+    //width: var(--socialWidth);
+    width: 100%;
+    text-align: center;
+    // display: flex;
+    justify-content: center;
+    // flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .contact-li {
-    padding: 3em;
-    margin: 1em;
+    padding: 0.5vw;
+    width: 100%;
+    margin: 0.5vh;
     background-color: $elementAccentCol;
     flex-wrap: wrap;
-    border-radius: 5%;
+    border-radius: 1%;
     font-size: var(--generalFontSize);
+    flex-shrink: 0;
+    // flex-grow: 1;
 }
 
 .contact-li:hover {
-        background-color: red;
-        padding: 3em;
+        background-color: $activeElementCol;
+        //padding: 3em;
 }
