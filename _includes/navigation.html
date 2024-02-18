@@ -1,5 +1,6 @@
 <nav class="button-bar">
     {% for item in site.data.navigation %}
-        <a class="button {% if page.url == item.link %}current{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+        <a class="button {% if page.url == item.link %}current{% endif %}" href="{{ item.link }}"><i class="{{ item.icon }}"></i></a>
+        <!-- {{ item.name }} -->
     {% endfor %}
 </nav>
