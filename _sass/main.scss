@@ -40,6 +40,16 @@ $breakpoint-pc: 1000px;
     }
 }
 
+// Background animation
+
+.gradient-background {
+
+}
+
+
+
+
+
 // Navbar Styling
 
 
@@ -97,7 +107,25 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, $mainBGCol, $secondBGCol);
+    // background: linear-gradient(to bottom, $mainBGCol, $secondBGCol);
+    background: linear-gradient(300deg, $mainBGCol, $secondBGCol, #95aacc);
+    background-size: 120% 120%;
+    animation: gradient-animation 4s ease infinite;
+
+    @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+    
+            50% {
+                background-position: 100% 50%;
+            }
+    
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
 }
 
 body {
