@@ -62,10 +62,11 @@ nav {
 
 .button {
     background-color: $buttonCol;
+    border-radius: 50%;
     color:#bbd5ff;
     list-style-type: none;
     margin: 0% 10%;
-    padding: 0%;
+    padding: 1vw;
     display: inline;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
