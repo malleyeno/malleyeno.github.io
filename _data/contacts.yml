@@ -16,13 +16,17 @@
 - name: FurAffinity
   link: https://www.furaffinity.net/user/malleyeno/
   icon: fa-solid fa-paw
+- name: Signal
+  link: https://signal.me/#eu/wc7lmU3gd4Hq3tAW3un2oOBvEMDXVr7sBKG9LKiISyicr1dEsRlEWqYIwhkoeW9S
+  icon: fa-brands fa-signal-messenger
 - name: Telegram
   link: https://t.me/MalleYenoArt
   icon: fa-brands fa-telegram
 - name: Youtube
   link: https://www.youtube.com/@malle_yeno/
   icon: fa-brands fa-youtube
-- name: Tumblr
-  link: https://malle-yeno.tumblr.com/
-  icon: fa-brands fa-tumblr
+#- name: Tumblr
+#  link: https://malle-yeno.tumblr.com/
+#  icon: fa-brands fa-tumblr
+
 
