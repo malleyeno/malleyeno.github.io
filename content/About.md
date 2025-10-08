@@ -1,10 +1,10 @@
 ---
-{"publish":true,"created":"2025-10-08","modified":"2025-10-08T15:08:41.496-06:00","tags":["about"],"cssclasses":""}
+{"publish":true,"created":"2025-10-08","modified":"2025-10-08T15:44:06.892-06:00","tags":["about"],"cssclasses":""}
 ---
 
 # Me, you say?
 
-> [!Figure] ![[attachments/april21stickers_27.png|Malle staring directly at the viewer|388x385]]
+> [!figure] ![[attachments/april21stickers_27.png|Malle staring directly at the viewer|388x385]]
 > Well don't mind if I do!
 
 
