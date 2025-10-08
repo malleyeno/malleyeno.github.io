@@ -1,3 +1,53 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.callout[data-callout="figure"]{
+    padding: .5em;
+    margin: .5em;
+    --color: #00000000;
+    --border: #00000000;
+    --bg: #00000000;
+    max-width: fit-content;
+    // margin-left: auto !important;
+    // margin-right: auto !important;
+
+    & .callout-icon {
+        display: none;
+    }
+    & .callout-title {
+        --callout-title-background: rgba(0, 0, 0, 0);
+        --color: #00000000;
+        --border: #00000000;
+        --bg: #00000000;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    & .callout-content {
+        --color: #00000000;
+        --border: #00000000;
+        --bg: #00000000;
+        font-style: italic;
+        // align-items: center;
+        // justify-content: center;
+        text-align: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+.callout[data-callout="figure-right"] {
+    float: right;
+    width: 50%;
+}
+
+.callout[data-callout="figure-left"] {
+    float: left;
+    width: 50%;
+}
