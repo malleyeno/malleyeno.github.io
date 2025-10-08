@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Home","created":"2025-10-08T13:27:53.054-06:00","modified":"2025-10-08T15:56:07.600-06:00","cssclasses":""}
+{"publish":true,"title":"Home","created":"2025-10-08T13:27:53.054-06:00","modified":"2025-10-08T16:34:38.326-06:00","cssclasses":""}
 ---
 
 # 👋🦝 Hiya! I'm Malle! 
@@ -9,9 +9,9 @@ I'm a raccoon on the internet, and you found my website!
 
 Here is where I write posts about whatever comes to mind. Those would probably be about _furry art_, _geography_ and _cartography_, _project management_, _programming_, _streaming_, and about _things going on in my life_. If that sounds interesting, you're welcome to hang out here 💚🦝
 
-You can learn more about me on my [about](about) page.
+You can learn more about me on my [about](About) page.
 
-Or you can check out my [now](now) page to see what's going on in my life.
+Or you can check out my [now](Now) page to see what's going on in my life.
 
 
 Looking for some of my blog posts? You can use the explorer on the left, [or see all posts here.](Blog) [Or use an RSS feed.](/index.xml)
