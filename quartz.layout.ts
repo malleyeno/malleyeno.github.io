@@ -8,8 +8,12 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      Mastodon: "https://tech.lgbt/@malle_yeno",
+      Bluesky: "https://bsky.app/profile/malleyeno.bsky.social",
+      FurAffinity: "https://www.furaffinity.net/user/malleyeno/",
+      Twitch: "https://www.twitch.tv/malle_yeno"
+      //GitHub: "https://github.com/jackyzha0/quartz",
+      //"Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
@@ -21,8 +25,17 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    // Component.ArticleTitle(),
+    // If it's the index page, don't show reading time nor assumed publish date
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => page.fileData.slug !== ("index"),
+    }),
+    // Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [

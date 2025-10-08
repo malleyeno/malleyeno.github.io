@@ -8,15 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Malle Yeno",
+    pageTitleSuffix: " | Malle Yeno",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
+    // {
+    //    provider: "plausible",
+    // },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "malleyeno.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
