@@ -1,9 +1,10 @@
 ---
-{"publish":true,"title":"Home","created":"2025-10-08T13:27:53.054-06:00","modified":"2025-10-08T14:55:45.519-06:00","cssclasses":""}
+{"publish":true,"title":"Home","created":"2025-10-08T13:27:53.054-06:00","modified":"2025-10-08T14:59:47.119-06:00","cssclasses":""}
 ---
 
 # 👋🦝 Hiya! I'm Malle! 
-![[attachments/hi.png|Malle the raccoon dog waving hi]]
+![[attachments/hi.png|Malle the raccoon dog waving hi|370x370]]
+
 I'm a raccoon on the internet, and you found my website! 
 
 Here is where I write posts about whatever comes to mind. Those would probably be about _furry art_, _geography_ and _cartography_, _project management_, _programming_, _streaming_, and about _things going on in my life_. If that sounds interesting, you're welcome to hang out here 💚🦝

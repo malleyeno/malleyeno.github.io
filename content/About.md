@@ -1,9 +1,9 @@
 ---
-{"publish":true,"created":"2025-10-08","modified":"2025-10-08T14:49:02.930-06:00","tags":["about"],"cssclasses":""}
+{"publish":true,"created":"2025-10-08","modified":"2025-10-08T14:58:09.064-06:00","tags":["about"],"cssclasses":""}
 ---
 
 # Me, you say?
-![[attachments/april21stickers_27.png|Well don't mind if I do!]]
+![[attachments/april21stickers_27.png|Well don't mind if I do!|388x385]]
 
 | Key       | Value               |
 | --------- | ------------------- |
@@ -11,6 +11,8 @@
 | Pronouns  | he/him or they/them |
 | Age       | 28                  |
 | Languages | English preferred   |
+| Gay       | Very 🏳️‍🌈         |
+
 I'm a furry artist and my fursona is a raccoon-dog (sometimes either in the hybrid sense or outright a tanuki). 
 
 I dig through the trash cans of Regina, Saskatchewan 🌾
