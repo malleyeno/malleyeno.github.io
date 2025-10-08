@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Home","created":"2025-10-08T13:27:53.054-06:00","modified":"2025-10-08T13:58:25.102-06:00","cssclasses":""}
+{"publish":true,"title":"Home","created":"2025-10-08T13:27:53.054-06:00","modified":"2025-10-08T14:51:37.740-06:00","cssclasses":""}
 ---
 
 
@@ -13,7 +13,7 @@ You can learn more about me on my [about](about) page.
 Or you can check out my [now](now) page to see what's going on in my life.
 
 
-Looking for some of my blog posts? You can use the explorer on the left, [or see all posts here.](blog) [Or use an RSS feed.](/index.xml)
+Looking for some of my blog posts? You can use the explorer on the left, [or see all posts here.](Blog) [Or use an RSS feed.](/index.xml)
 
 ## My Links
 
