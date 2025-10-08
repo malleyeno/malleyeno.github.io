@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Notice - This site is migrating to Quartz so don't panic!","created":"2025-10-08","modified":"2025-10-08T13:35:01.513-06:00","cssclasses":""}
+{"publish":true,"title":"Notice - This site is migrating to Quartz so don't panic!","created":"2025-10-08","modified":"2025-10-08T16:40:22.373-06:00","published":"2025-10-08","cssclasses":""}
 ---
 
 
