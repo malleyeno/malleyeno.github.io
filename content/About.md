@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-10-08","modified":"2025-10-08T14:46:21.923-06:00","tags":["about"],"cssclasses":""}
+{"publish":true,"created":"2025-10-08","modified":"2025-10-08T14:49:02.930-06:00","tags":["about"],"cssclasses":""}
 ---
 
 # Me, you say?
@@ -33,6 +33,9 @@ He exists in a fantasy setting where during the day, he acts as a jeweler or gol
 Using magic and potions, he is able to shapeshift. But as with all magic-practicing creatures in the setting, the full moon can throw a wrench into the plan. What kind of wrench is something I like to explore in my art and stories!
 
 If I write more about Malle, or make a dedicated reference page for him, I'll probably link it here!
+
+## What are you up to now?
+[[Now\|Find out on my now page!]]
 ## What tools do you use?
 
 ### For art
