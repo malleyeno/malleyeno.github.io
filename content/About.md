@@ -1,9 +1,13 @@
 ---
-{"publish":true,"created":"2025-10-08","modified":"2025-10-08T14:58:09.064-06:00","tags":["about"],"cssclasses":""}
+{"publish":true,"created":"2025-10-08","modified":"2025-10-08T15:08:41.496-06:00","tags":["about"],"cssclasses":""}
 ---
 
 # Me, you say?
-![[attachments/april21stickers_27.png|Well don't mind if I do!|388x385]]
+
+> [!Figure] ![[attachments/april21stickers_27.png|Malle staring directly at the viewer|388x385]]
+> Well don't mind if I do!
+
+
 
 | Key       | Value               |
 | --------- | ------------------- |
