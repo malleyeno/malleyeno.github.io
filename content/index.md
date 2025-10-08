@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Home","created":"2025-10-08T13:27:53.054-06:00","modified":"2025-10-08T13:35:19.982-06:00","cssclasses":""}
+{"publish":true,"title":"Home","created":"2025-10-08T13:27:53.054-06:00","modified":"2025-10-08T13:58:25.102-06:00","cssclasses":""}
 ---
 
 
@@ -21,8 +21,6 @@ Looking for some of my blog posts? You can use the explorer on the left, [or see
   <!-- icon: fa-brands fa-twitch -->
 - [Discord Server](https://discord.gg/rhM2xvez3n)
   <!-- icon: fa-brands fa-discord -->
-- [Commissions](https://forms.gle/nbZFb4F4mDZqiejD7)
-  <!-- icon: fa-solid fa-paintbrush -->
 - [Mastodon](https://tech.lgbt/@malle_yeno)
   <!-- icon: fa-brands fa-mastodon -->
 - [Bluesky](https://bsky.app/profile/malleyeno.bsky.social)
