@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-10-08","modified":"2025-10-08T15:44:06.892-06:00","tags":["about"],"cssclasses":""}
+{"publish":true,"created":"2025-10-08","modified":"2025-10-08T18:41:52.860-06:00","published":"2025-10-08","tags":["about"],"cssclasses":""}
 ---
 
 # Me, you say?
@@ -25,7 +25,7 @@ I dig through the trash cans of Regina, Saskatchewan 🌾
 I work in geography professionally (if you know what GIS means, you get a cookie shaped into your favourite projection 🗺️). Nowadays that's on the project management side of that domain, but I can still cook up a map app. You might see some on this site! And if not, I can at least point you to some other maps or mapmakers I'm interested in.
 
 Beyond that, I am a furry artist! I have been drawing anthros for... a long time? 😅 I will say I only started taking drawing seriously about seven years ago!
-I don't quite remember when I started. It was at least five years ago and probably before then. I know I've been drawing them in sketchbooks since at least middle school. 
+I don't quite remember when I started art in general. It was at least ten years ago and probably before then. I know I've been doodling them in sketchbooks since at least middle school. 
 
 My biggest hobby is contributing to OpenStreetMap for the Regina area. If you've seen a feature in the area, there's a decent change I'm somewhere in the version history! And if not, then I'm at least active on the OSMUS slack and on the Regina wiki page.
 
