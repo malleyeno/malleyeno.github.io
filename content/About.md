@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-10-08","modified":"2025-10-08T18:41:52.860-06:00","published":"2025-10-08","tags":["about"],"cssclasses":""}
+{"publish":true,"created":"2025-10-08","modified":"2025-10-15T10:06:17.104-06:00","published":"2025-10-08","tags":["about"],"cssclasses":""}
 ---
 
 # Me, you say?
@@ -92,6 +92,12 @@ Me! Hope you enjoy reading them 💚
 This is a personal blog and I don't really expect to have guest writers. If I like someone's work, I'll probably link to it in a post and add my own thoughts in my own post. 
 
 This is as good a time as any to ask: please *don't* request to guest write something here.
+
+## Do you use AI for anything on this site?
+
+No, I didn't, I don't, and I won't.
+
+And please don't use anything on this site to train/test an AI model. That's for both the text and especially for my artwork. Please be respectful of the effort I took to make what you're seeing.
 ## How did you make this site?
 
 This website uses Quartz (see footer), the Quartz Syncer plugin, and Github Pages. It's all static (I think/hope) so hopefully it's pretty snappy.

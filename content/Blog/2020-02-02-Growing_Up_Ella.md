@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Growing Up Ella, or How I Got Opened Up and Grew a Soul","created":"2020-02-02","modified":"2020-02-02","published":"2020-02-02","cssclasses":""}
+{"publish":true,"title":"Growing Up Ella, or How I Got Opened Up and Grew a Soul","created":"2020-02-02","modified":"2020-02-02","published":"2020-02-02","tags":["post","personal"],"cssclasses":""}
 ---
 
 
