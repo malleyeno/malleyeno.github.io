@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-12-05","modified":"2025-12-05","published":"2025-12-05","tags":["project-management","personal-productivity"],"cssclasses":"","socialImage":"https://malleyeno.com/Blog/attachments/2025-estimatingEffortToGetThingsDone.png","socialDescription":"Getting a quick idea of how much time something will take is a good way to know where to spend your time. So how do you do that?"}
+{"publish":true,"created":"2025-12-05","modified":"2025-12-05","published":"2025-12-05","tags":["project-management","personal-productivity","post"],"cssclasses":"","socialImage":"https://malleyeno.com/Blog/attachments/2025-estimatingEffortToGetThingsDone.png","socialDescription":"Getting a quick idea of how much time something will take is a good way to know where to spend your time. So how do you do that?"}
 ---
 
 ![[Blog/attachments/2025-estimatingEffortToGetThingsDone.png|Malle as a detective with my org-agenda in the background. The title text says Estimating Effort Fast to Get Things Done.]]
