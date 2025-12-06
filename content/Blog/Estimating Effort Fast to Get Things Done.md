@@ -3,8 +3,6 @@
 ---
 
 ![[Blog/attachments/2025-estimatingEffortToGetThingsDone.png|Malle as a detective with my org-agenda in the background. The title text says Estimating Effort Fast to Get Things Done.]]
-*Note: This page is experimenting with using a custom social image. You may see it update a few times even if the content doesn't. If I can confirm that it is working as intended, I will remove this note.*
-
 I have a million things to do, and I know I should probably do them all at some point. But it's hard, I'm tired, and I don't know what I should do first, so I freeze at the idea of doing any of it. [^1]
 
 And I know I'm probably not alone in those kinds of thoughts. After all, you're reading this article I wrote!
