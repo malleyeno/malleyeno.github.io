@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-10-08","modified":"2025-10-15T10:06:17.104-06:00","published":"2025-10-08","tags":["about"],"cssclasses":""}
+{"publish":true,"created":"2025-10-08","modified":"2025-12-06T15:17:41.406-06:00","published":"2025-10-08","tags":["about"],"cssclasses":""}
 ---
 
 # Me, you say?
@@ -9,13 +9,13 @@
 
 
 
-| Key       | Value               |
-| --------- | ------------------- |
-| Name      | Malle Yeno          |
-| Pronouns  | he/him or they/them |
-| Age       | 28                  |
-| Languages | English preferred   |
-| Gay       | Very 🏳️‍🌈         |
+| Key       | Value                                                 |
+| --------- | ----------------------------------------------------- |
+| Name      | Malle Yeno                                            |
+| Pronouns  | he/him or they/them                                   |
+| Age       | 28                                                    |
+| Languages | English preferred, learning American Sign Language 👋 |
+| Gay       | Very 🏳️‍🌈                                           |
 
 I'm a furry artist and my fursona is a raccoon-dog (sometimes either in the hybrid sense or outright a tanuki). 
 
