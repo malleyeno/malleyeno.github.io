@@ -51,7 +51,32 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      // useSavedState: false,
+      sortFn: (a, b) => {
+        if ((a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        if ((!a.isFolder && !b.isFolder)) {
+          // these are two posts back to back, try to sort by date
+          // todo: what if date is undef somehow?
+          if (b.data?.date > a.data?.date) {
+            return -1
+          } else {
+            return 1
+          }
+        }
+        
+        if (!a.isFolder && b.isFolder) {
+          return 1
+        } else {
+          return -1
+        }
+      }
+    }),
   ],
   right: [
     Component.Graph(),
@@ -75,7 +100,33 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      // useSavedState: false,
+      sortFn: (a, b) => {
+        if ((a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+
+        if ((!a.isFolder && !b.isFolder)) {
+          // these are two posts back to back, try to sort by date
+          // todo: what if date is undef?
+          if (b.data?.date > a.data?.date) {
+            return -1
+          } else {
+            return 1
+          }
+        }
+        
+        if (!a.isFolder && b.isFolder) {
+          return 1
+        } else {
+          return -1
+        }
+      }
+    }),
   ],
   right: [],
 }
