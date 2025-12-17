@@ -37,7 +37,7 @@ Regina sidewalks have been mapped predominantly as attrs on ways (thanks to the 
 > [!figure] ![[Blog/attachments/2025-SidewalksProject.png|A screenshot of a SimpleTaskManager for a project called "Sidewalks Regina". A large grid layer is over a map of Regina, with majority grids being red with some green in the north and east. The progress bar at the top shows 3%.]]
 > Slow and steady 🦝💦
 
-With winter shutting down any real surveying attempts on my end, I expect sidewalk mapping to take more of my OSM effort these next few months (assuming I find the time for contributions!)
+With winter shutting down any real surveying attempts on my end, I expect sidewalk mapping to take more of my OSM effort these next few months (assuming I find the time for contributions!) This may be the one case where saying that [[Blog/Estimating Effort Fast to Get Things Done\|this might take a year doesn't produce that "how absurd" reaction I talked about before!]]
 
 # Indoor Mapping
 A lot of OSM focuses on mapping the outdoor environment as easily visible from aerial images. But what I’m really hoping might catch on is indoor mapping. That’s where you make a map of the inside of a building. 
