@@ -9,12 +9,12 @@ The snow’s here! Since I’ll be couped up inside a lot more than I normally a
 # StreetComplete Surveying
 We don’t get a lot of warm weather up here, so getting out while I could to do some surveying was a large part of my contributions. The vast majority of my edits came from [SCEE]() (the advanced [StreetComplete]()), which is probably the best way to enrich OSM data on the ground if you haven’t lost enough sanity to use Vespucci. 
 
-> [!figure]  ![[Blog/attachments/2025-sceestats.png|A screenshot of my SCEE profile with stats. Overall, I had 69696 contributions, ranked #2 in Canada, #96 globally, had 349 days active, and had 586 achievement levels. Within the last 7 days, I had 486 contributions, ranked #11 in Canada, and #349 globally.]]
+> [!figure] ![[Blog/attachments/2025-sceestats.png|A screenshot of my SCEE profile with stats. Overall, I had 69696 contributions, ranked #2 in Canada, #96 globally, had 349 days active, and had 586 achievement levels. Within the last 7 days, I had 486 contributions, ranked #11 in Canada, and #349 globally.|500]]
 > That contribution number makes me go "Niceniceni". I'll check back after about 627,273 more contributions.
 
 Since I met [someone who actually uses building data](https://nafithebear.phenjara.de/) (side note: [I met two people now!](https://pronghornmaps.com/)), those surveys focused on building attributes. Levels, roofing types, colours, colours of roofs, we got ‘em! [We have a little 3D model of the north-end going!](https://demo.f4map.com/#lat=50.4919565&lon=-104.6377137&zoom=16)
 
-> [!figure]  ![[Blog/attachments/2025-f43Dmap.png|A screenshot of Regina North End as seen on F4map's 3d model viewer.]]
+> [!figure] ![[Blog/attachments/2025-f43Dmap.png|A screenshot of Regina North End as seen on F4map's 3d model viewer.]]
 > Who needs drones when you have eyeballs? (Actually a drone would be really useful 👉👈)
 
 Accessibility attrs were another focus for me. Widths, surface conditions and material, and lighting were some of the most common attrs for ways I added. Crossing attributes will come up next, but those will depend on [[Blog/Winter Retrospective 2025 - OpenStreetMap for Regina#Separate Sidewalk Mapping]] before I can really go ham on them.
