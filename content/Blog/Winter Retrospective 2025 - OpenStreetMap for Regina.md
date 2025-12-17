@@ -7,7 +7,7 @@
 
 The snow’s here! Since I’ll be couped up inside a lot more than I normally am (so like… 5% more I guess), I figured now is the time to recap my contributions to OpenStreetMap this past year. Since the vast majority of my work is in Regina, Saskatchewan, I’ll just focus on that. (Besides, the KW OSM[^1] community scares me a little. They *respond* to map notes out there. *shiver*)
 # StreetComplete Surveying
-We don’t get a lot of warm weather up here, so getting out while I could to do some surveying was a large part of my contributions. The vast majority of my edits came from [SCEE]() (the advanced [StreetComplete]()), which is probably the best way to enrich OSM data on the ground if you haven’t lost enough sanity to use Vespucci. 
+We don’t get a lot of warm weather up here, so getting out while I could to do some surveying was a large part of my contributions. The vast majority of my edits came from [SCEE](https://github.com/Helium314/SCEE) (the advanced [StreetComplete](https://streetcomplete.app/)), which is probably the best way to enrich OSM data on the ground if you haven’t lost enough sanity to use Vespucci. 
 
 > [!figure] ![[Blog/attachments/2025-sceestats.png|A screenshot of my SCEE profile with stats. Overall, I had 69696 contributions, ranked #2 in Canada, #96 globally, had 349 days active, and had 586 achievement levels. Within the last 7 days, I had 486 contributions, ranked #11 in Canada, and #349 globally.|500x700]]
 > That contribution number makes me go "Niceniceni". I'll check back after about 627,273 more contributions.
