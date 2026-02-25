@@ -1,5 +1,10 @@
 ---
-{"publish":true,"title":"Home","created":"2025-10-08T13:27:53.054-06:00","modified":"2025-10-08T16:34:38.326-06:00","cssclasses":""}
+publish: true
+title: Home
+created: 2025-10-08T13:27:53.054-06:00
+modified: 2026-02-25T16:16:22.642-06:00
+published: 2026-02-25T16:16:22.642-06:00
+cssclasses: ""
 ---
 
 # 👋🦝 Hiya! I'm Malle! 
@@ -20,8 +25,6 @@ Looking for some of my blog posts? You can use the explorer on the left, [or see
 
 - [Twitch](https://www.twitch.tv/malle_yeno)
   <!-- icon: fa-brands fa-twitch -->
-- [Discord Server](https://discord.gg/rhM2xvez3n)
-  <!-- icon: fa-brands fa-discord -->
 - [Mastodon](https://tech.lgbt/@malle_yeno)
   <!-- icon: fa-brands fa-mastodon -->
 - [Bluesky](https://bsky.app/profile/malleyeno.bsky.social)
