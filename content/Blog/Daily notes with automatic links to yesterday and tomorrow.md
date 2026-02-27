@@ -27,7 +27,9 @@ Also this isn't written with AI, I'm just neurodivergent lmao (I'm writing a tut
 > 
 > If I'm losing your attention, then here's the short version:
 >1. **Make a daily template**. Configure your daily notes plugin to use that template. (If a clean graph view is important to you, use a code block embed of the base, rather than an embedded file.)
+>   
 >2. In that daily template, **run a command to** `Bases: Insert New Base.` Rename and move around the newly created `Untitled.base` file wherever you want.
+>   
 >3. **Apply a filter to the In-line base**. Make it filter for:
 >	```
 >	file.name == this.file.name AND file IN FOLDER dailies
@@ -41,13 +43,16 @@ Also this isn't written with AI, I'm just neurodivergent lmao (I'm writing a tut
 >	link("dailies/" + (date(file.name) - "1d").toString(),(date(file.name) - "1d").toString())
 >	```
 >	Replace `dailies/` with where you put your daily notes. Ignore that bit if your daily notes go Wherever™️ and you use a different system to determine daily notes.
+>	
 >6. **Another formula field called `Tomorrow`.** This time, we add a day, not subtract. So you should have:
 >	```
 >	link("dailies/"+(date(file.name) + "1d").toString(), (date(file.name) + "1d").toString())
 >	```
 >	Again, `dailies/` goes away if you don't use that.
+>	
 >7. **Rearrange the columns** so that it goes in order of Yesterday, Today, Tomorrow.
 >	(Alternatively, don't do that. You'll unlock 💥Daily Challenge Mode💥)
+>	
 >8. You're done. Go **put out your trash** for me 🦝
 >
 
@@ -139,6 +144,7 @@ While I personally don't care that much about the graph view, there is a way to 
 ````yaml
 // Remove the four backticks and the 'yaml' above, plus the four backticks at end
 // If I did not put these here, it would render the base instead of just the code.
+// If you do not see what I am talking about, then worry not.
 ```base
 filters:
   and:
