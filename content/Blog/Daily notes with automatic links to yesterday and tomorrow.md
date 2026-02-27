@@ -33,7 +33,9 @@ Also this isn't written with AI, I'm just neurodivergent lmao (I'm writing a tut
 >	file.name == this.file.name AND file IN FOLDER dailies
 >	```
 >	Replace `dailies` with where you put daily notes. Replace the whole filter if you use a different daily note classifying system, like tags or properties. Since I can't read your mind, I'll leave this part up to you.
+>	
 >4. **Add a formula field to the view**. Call it `Yesterday`.
+>   
 >5. **Give `Yesterday` a formula like this**:
 >	```
 >	link("dailies/" + (date(file.name) - "1d").toString(),(date(file.name) - "1d").toString())
