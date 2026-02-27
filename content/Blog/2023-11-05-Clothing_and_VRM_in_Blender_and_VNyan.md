@@ -1,5 +1,13 @@
 ---
-{"publish":true,"title":"Clothing and VRM with Blender and VNyan","created":"2023-11-05","modified":"2023-11-05","published":"2023-11-05","tags":["post","streaming"],"cssclasses":""}
+publish: true
+title: Clothing and VRM with Blender and VNyan
+created: 2023-11-05
+modified: 2023-11-05
+published: 2023-11-05
+tags:
+  - post
+  - streaming
+cssclasses: ""
 ---
 
 Getting clothing to work on VRM models is a bit tricky. But we discovered a way to make toggleable clothes [while I was streaming updates to my model over on Twitch!](https://www.twitch.tv/malle_yeno) We discovered a way to customize your VRM in Blender to have clothes, and them turn them on/off in VNyan. These are my rough notes on how to make this happen. I might refine this more in the future!

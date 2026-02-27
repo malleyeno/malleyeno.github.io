@@ -1,5 +1,10 @@
 ---
-{"publish":true,"title":"Blog","created":"2025-10-08T13:27:53.018-06:00","modified":"2025-10-08T14:53:37.390-06:00","cssclasses":""}
+publish: true
+title: Blog
+created: 2025-10-08T13:27:53.018-06:00
+modified: 2025-10-08T14:53:37.390-06:00
+published: 2025-10-08T14:53:37.390-06:00
+cssclasses: ""
 ---
 
 
