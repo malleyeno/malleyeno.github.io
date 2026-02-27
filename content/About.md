@@ -1,8 +1,14 @@
 ---
-{"publish":true,"created":"2025-10-08","modified":"2025-12-06T15:17:41.406-06:00","published":"2025-10-08","tags":["about"],"cssclasses":""}
+publish: true
+created: 2025-10-08
+modified: 2026-02-27T09:54:19.529-06:00
+published: 2025-10-08
+tags:
+  - about
+cssclasses: ""
 ---
 
-# Me, you say?
+## Me, you say?
 
 > [!figure] ![[attachments/april21stickers_27.png|Malle staring directly at the viewer|388x385]]
 > Well don't mind if I do!
@@ -81,36 +87,39 @@ That's it! It's available everywhere I need it, it's fast enough for me, and it 
 	- I used to use Sammi with a pngtuber software that is slipping out of my head. I stopped using it because it made my OBS setup way too complicated and I wasn't using most of the features.
 - I am experimenting with using Inochi2d for 2d vtubing. I am trying out with making my own tuber! Hope to write about how that goes.
 - My go-to bot is Firebot. I'd recommend Firebot to anyone starting out. It's FOSS so you can fix problems you run into yourself (which you will. Trust me. No bot is perfect.) And it has plenty of features built in.
-# This website
-## Who made the art I'm seeing?
+## This website
+### Who made the art I'm seeing?
 Me! Hope you like it 💚
 
 If someone else made something, I will credit them in the caption (or a footnote, if I can make the themeing put the footnote right next to it somehow). 
-## Who wrote the posts?
+### Who wrote the posts?
 Me! Hope you enjoy reading them 💚
 
 This is a personal blog and I don't really expect to have guest writers. If I like someone's work, I'll probably link to it in a post and add my own thoughts in my own post. 
 
 This is as good a time as any to ask: please *don't* request to guest write something here.
 
-## Do you use AI for anything on this site?
+### Do you use AI for anything on this site?
 
 No, I didn't, I don't, and I won't.
 
 And please don't use anything on this site to train/test an AI model. That's for both the text and especially for my artwork. Please be respectful of the effort I took to make what you're seeing.
-## How did you make this site?
+### How did you make this site?
 
 This website uses Quartz (see footer), the Quartz Syncer plugin, and Github Pages. It's all static (I think/hope) so hopefully it's pretty snappy.
 
-## Why Quartz?
+### Why Quartz?
 I wanted something that uses Obsidian because that's what I write notes in and I can write with it anywhere. If I could figure out how to integrate it with org-mode, I would.
 
 I used to use Jekyll for this site, and it worked. But it had a lot of overhead for me to handle (making templates, reworking templates, making data pages and configs) that got in the way of me just putting things up online. 
 
-## Why don't you use something like Eleventy?
+### Why don't you use something like Eleventy?
 I thought about it and experimented with it a bit. I like how snappy it is. But it didn't solve the problem I was having with running a site: it needs to work with what I already use and not present significantly more work than writing posts. Right now, it seems Quartz is able to do that for me, so that's the tool of choice!
 
-## Why no comments?
+### Why no comments?
 I thought about implementing Disqus or similar to let people put up comments. But I decided against it for the same reason I don't have analytics turned on: I don't want any kind of metrics attached to this place. I have the kind of brain that would see "article A had five comments and article B has 2. What went wrong?!" and I know that kind of thinking will kill my enthusiasm to write here. (Plus I don't want to have to moderate comments.)
 
 If you want to reach out to me about one of my posts, you are absolutely welcome to find me on whichever platform we share that [[index\|you can find on the main page]]. You're also welcome to share and link to my posts.
+
+## Changelog
+2026-02-27 - All H1s and some H2s are devolved one level (H1->H2). [This was done because accessible web standards suggest one H1, which should be the title](https://www.w3.org/WAI/WCAG22/Techniques/html/H69). I was under the impression that Quartz would adjust my drafts to do that automatically, but that appeared to not be the case. Thank you to [david](https://david.garden) for catching this!
