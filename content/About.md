@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2025-10-08
-modified: 2026-02-27T09:54:19.529-06:00
+modified: 2026-02-27T09:57:17.086-06:00
 published: 2025-10-08
 tags:
   - about
@@ -122,4 +122,4 @@ I thought about implementing Disqus or similar to let people put up comments. Bu
 If you want to reach out to me about one of my posts, you are absolutely welcome to find me on whichever platform we share that [[index\|you can find on the main page]]. You're also welcome to share and link to my posts.
 
 ## Changelog
-2026-02-27 - All H1s and some H2s are devolved one level (H1->H2). [This was done because accessible web standards suggest one H1, which should be the title](https://www.w3.org/WAI/WCAG22/Techniques/html/H69). I was under the impression that Quartz would adjust my drafts to do that automatically, but that appeared to not be the case. Thank you to [david](https://david.garden) for catching this!
+2026-02-27 - All H1s and some H2s are devolved one level (H1->H2, H2->H3). [This was done because accessible web standards suggest one H1, which should be the title](https://www.w3.org/WAI/WCAG22/Techniques/html/H69). I was under the impression that Quartz would adjust my drafts to do that automatically, but that appeared to not be the case. Thank you to [david](https://david.garden) for catching this!
