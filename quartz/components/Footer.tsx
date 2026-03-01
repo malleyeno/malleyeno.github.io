@@ -17,6 +17,9 @@ export default ((opts?: Options) => {
           {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p>
+        <a href="https://www.malleyeno.com">
+          <img src="https://www.malleyeno.com/static/2026-02-24-web_button.png"></img>
+        </a>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
